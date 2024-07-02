@@ -1,0 +1,10 @@
+<!-- src/app/features/products/product-list/product-list.component.html -->
+<div class="container">
+  <div class="product-card" *ngFor="let product of products">
+    <img class="product-img" src="https://via.placeholder.com/100x180" alt="Product Image">
+    <div class="product-info">
+      <h4 class="product-title">{{ product.name }}</h4>
+      <p class="product-price">${{ product.price }}</p>
+    </div>
+  </div>
+</div>
