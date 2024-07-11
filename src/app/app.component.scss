@@ -2,7 +2,7 @@
 nav {
     display: flex;
     justify-content: center;
-    background-color: #f8f9fa;
+    background-color: #f8f9fa29;
     padding: 10px;
   }
   nav a {
@@ -14,3 +14,7 @@ nav {
     font-weight: bold;
   }
   
+body{
+  padding: 0;
+  margin: 0;
+}
